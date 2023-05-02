@@ -1,0 +1,10 @@
+<h1>Ola sou home</h1>
+
+{{#each users}}
+
+    <h1>{{dataValues.nome}}</h1>
+    <p>{{dataValues.email}}</p>
+    <a href="/deletar/{{dataValues.id}}"><button>Deletar</button></a>
+    <hr>
+
+{{/each}}
